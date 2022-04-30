@@ -42,3 +42,7 @@ graph TD
 | `http://localhost:3000/v1/students` | Return a list with all students with all their data |
 | `http://localhost:3000/v1/students/emails` | Return a list with emails of the students who have the certification  |
 | `http://localhost:3000/v1/students/credits/:credits` | Returns a list of students whose credits are greater than the parameter |
+
+## Demo
+![Code-Challenge](https://user-images.githubusercontent.com/63875704/166117679-42e80b16-1b33-4a37-81e9-bcd44ed2f546.gif)
+
