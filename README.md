@@ -7,10 +7,11 @@ This exercise was proposed by CarloGilmar on behalf of LaunchX.
 |---|---|
 | [Express](https://www.npmjs.com/package/express) | `npm i --save express` |
 | [EsLint](https://jestjs.io/) | `npm i eslint --save-dev` |
-| [Jest](https://eslint.org/) | `npm install jest@26.0.0 --save` |
+| [Jest](https://eslint.org/) | `npm install jest@26.0.0 --save-dev` |
 
 If you want to download the project don't forget to run **`npm i`** to install the necessary dependencies.
 
+## There are some scripts in the package.json to speed up some commands:
 ```javascript
 "scripts": {
     "test": "node ./node_modules/jest/bin/jest.js",
@@ -24,3 +25,13 @@ If you want to download the project don't forget to run **`npm i`** to install t
 - `npm run linter` = To examine the code according to the rules imposed in the .eslintrc.js file
 - `npm run linter-fix` = To resolve errors according to the rules
 - `npm run server` = To stand up the server
+
+## The logic of this project can be seen in this way.
+
+```mermaid
+graph TD
+    A[Reader] & B[StudentServices]
+    A --> C[StudentsController]
+    B --> C[StudentsController]
+    C --> D[Server]
+```
