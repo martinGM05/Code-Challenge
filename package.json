@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/martinGM05/Code-Challenge/issues"
   },
-  "homepage": "https://github.com/martinGM05/Code-Challenge#readme"
+  "homepage": "https://github.com/martinGM05/Code-Challenge#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
