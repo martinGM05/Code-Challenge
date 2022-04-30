@@ -35,3 +35,10 @@ graph TD
     B --> C[StudentsController]
     C --> D[Server]
 ```
+
+## These are the available **endpoints**.
+| Endpoint | Description |
+|---|---|
+| `http://localhost:3000/v1/students` | Return a list with all students with all their data |
+| `http://localhost:3000/v1/students/emails` | Return a list with emails of the students who have the certification  |
+| `http://localhost:3000/v1/students/credits/:credits` | Returns a list of students whose credits are greater than the parameter |
