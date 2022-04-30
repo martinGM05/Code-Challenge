@@ -5,4 +5,8 @@ describe("Test for StudentsController", () => {
         const students = StudentsController.getAllStudentsWithAllFields()
         expect(students.length).toBe(51)
     })
+    test("2) Get all emails with certification", () => {
+        const students = StudentsController.getAllEmailsWithCertification()
+        expect(students.length).toBe(29)
+    })
 })
