@@ -7,7 +7,7 @@ This exercise was proposed by CarloGilmar on behalf of LaunchX.
 |---|---|
 | [Express](https://www.npmjs.com/package/express) | `npm i --save express` |
 | [EsLint](https://jestjs.io/) | `npm i eslint --save-dev` |
-| [Jest](https://eslint.org/) | `npm install jest@26.0.0 --save` |
+| [Jest](https://eslint.org/) | `npm i jest@26.0.0 --save` |
 
 If you want to download the project don't forget to run **`npm i`** to install the necessary dependencies.
 
