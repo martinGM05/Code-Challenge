@@ -3,7 +3,7 @@
 This exercise was proposed by CarloGilmar on behalf of LaunchX.
 
 ## Some dependencies are used in this project such as: 
-| Dependency | Description |
+| Dependency | Command |
 |---|---|
 | [Express](https://www.npmjs.com/package/express) | `npm i --save express` |
 | [EsLint](https://jestjs.io/) | `npm i eslint --save-dev` |
