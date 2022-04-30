@@ -1,0 +1,19 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Cursos de Visual Thinking API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinGM05/Code-Challenge.git"
+  },
+  "author": "Martin Gonzalez Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinGM05/Code-Challenge/issues"
+  },
+  "homepage": "https://github.com/martinGM05/Code-Challenge#readme"
+}
