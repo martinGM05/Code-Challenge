@@ -9,4 +9,8 @@ describe("Test for StudentsController", () => {
         const students = StudentsController.getAllEmailsWithCertification()
         expect(students.length).toBe(29)
     })
+    test("3) Get all students when their credits are greater than credit of the params ", () => {
+        const students = StudentsController.getAllStudentsWithCreditsGreaterThan(500)
+        expect(students.length).toBe(27)
+    })
 })
