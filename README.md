@@ -1,6 +1,6 @@
 # Code Challenge - Visual Thinking API Courses
 
-This exercise was proposed by CarloGilmar on behalf of LaunchX.
+This exercise was proposed by [CarloGilmar](https://github.com/carlogilmar) on behalf of LaunchX.
 
 ## Some dependencies are used in this project such as: 
 | Dependency | Command |
